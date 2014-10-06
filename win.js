@@ -42,16 +42,27 @@ for (var i = 0; i <= check.length; i++) {
     check.sort();
 
     // Check if the first array matches the value of a clicked square
+<<<<<<< HEAD
     if (arr[0].indexOf("a"+"clicked"[i]) > -1) {
+=======
+    if (arr[0].indexOf(check[i]) > -1) {
+>>>>>>> 18863636d2dead7729ba50f6fe53a77f20ea8b36
       // adds a point to the winning combo's own point counter "counter"
         counter++;
         console.log("Added a point to counter 1");
 
+<<<<<<< HEAD
     } else if (arr[1].indexOf("a"+"clicked"[i]) > -1) {
       // adds a point to the counter2
         counter2++;
         console.log("Added a point to counter 2");
         console.log("Clicked"+ "a"+"clicked");
+=======
+    } else if (arr[1].indexOf(check[i]) > -1) {
+      // adds a point to the counter2
+        counter2++;
+        console.log("Added a point to counter 2");
+>>>>>>> 18863636d2dead7729ba50f6fe53a77f20ea8b36
 
     } else {
       // guess it doesn't matter at this point. The loop added points to each combination's array
