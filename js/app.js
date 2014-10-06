@@ -16,6 +16,8 @@
 // Everything starts here
 var start = function(){
   console.log("Window done loading page");
+    console.log("");
+
   styleListElements();
   document.querySelector("#reset").addEventListener("click",resetButtonHandler);
 };
@@ -125,6 +127,8 @@ var resetButtonHandler = function() {
     player2counter8 = 0;
 
     console.log("Game has been reset");
+    console.log("");
+
 };
 
 
