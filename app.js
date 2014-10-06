@@ -215,7 +215,7 @@ var checkCounter = function(){
     gameOver = 2;
   } else if (moveCounter === 9){
     gameOver = 3;
-    swal({   title: "Are you sure?",   text: "Your will not be able to recover this imaginary file!",   type: "warning",   showCancelButton: true,   confirmButtonColor: "#DD6B55",   confirmButtonText: "Yes, delete it!" },  function(){   alert("Booyah!"); });
+    //swal({   title: "Are you sure?",   text: "Your will not be able to recover this imaginary file!",   type: "warning",   showCancelButton: true,   confirmButtonColor: "#DD6B55",   confirmButtonText: "Yes, delete it!" },  function(){   alert("Booyah!"); });
     console.log("Tie game....ohhhhhhhhh :(");
   }
   else{
