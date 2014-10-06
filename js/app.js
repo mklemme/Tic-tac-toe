@@ -82,7 +82,7 @@ var clickedItem = this.getAttribute('data-id');
       player1Clicked.push(parseInt(clickedItem));
       document.querySelector("#currentPlayer").innerHTML = "<p class='player2'><span></span><br>Player 2</p>";
       moveCounter ++;
-      console.log("Player 1's clicked squares: " + player1Clicked);
+      console.log("Player 1's clicked square: " + player1Clicked);
       return checkWinner("player1");
 
     }
@@ -91,7 +91,7 @@ var clickedItem = this.getAttribute('data-id');
       player2Clicked.push(parseInt(clickedItem));
       document.querySelector("#currentPlayer").innerHTML = "<p class='player1'><span></span><br>Player 1</p>";
       moveCounter ++;
-      console.log("Player 2's clicked squares: " + player2Clicked);
+      console.log("Player 2's clicked square: " + player2Clicked);
       return checkWinner("player2");
     }
   }
