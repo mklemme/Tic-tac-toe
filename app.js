@@ -220,6 +220,7 @@ var checkCounter = function(){
     gameOver = 3;
     //swal({   title: "Are you sure?",   text: "Your will not be able to recover this imaginary file!",   type: "warning",   showCancelButton: true,   confirmButtonColor: "#DD6B55",   confirmButtonText: "Yes, delete it!" },  function(){   alert("Booyah!"); });
     console.log("Tie game....ohhhhhhhhh :(");
+      document.querySelector("#currentPlayer").innerHTML = "<p class='player1'><span></span><br>Tie game. Oh noes!</p>";
   }
   else{
     console.log("No winner yet :(");
