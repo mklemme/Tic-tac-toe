@@ -220,6 +220,7 @@ var checkCounter = function(){
   } else if (moveCounter === 9){
     gameOver = 3;
     console.log("Tie game....ohhhhhhhhh :(");
+    document.querySelector("#currentPlayer").innerHTML = "<p class='player1'><span></span><br>Tie game. Oh noes!</p>";
   }
   else{
     console.log("No winner yet :(");
