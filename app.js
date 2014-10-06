@@ -138,7 +138,7 @@ var checkWinner = function(a){
         player1counter1++;
         console.log("Added a point to counter 1");
       } else {
-        console.log("No counter added for counter 1");
+        console.log("No point added for counter 1");
       }
     }
 
@@ -147,7 +147,7 @@ var checkWinner = function(a){
         player1counter2++;
         console.log("Added a point to counter 2");
       } else {
-        console.log("No counter added for counter 2");
+        console.log("No point added for counter 2");
       }
     }
 
@@ -158,7 +158,7 @@ var checkWinner = function(a){
         console.log("Added a point to counter 3");
 
       } else {
-        console.log("No counter added for counter 3");
+        console.log("No point added for counter 3");
       }
       console.log("Player 1 counter 1: " + player1counter1);
       console.log("Player 1 counter 2: " + player1counter2);
@@ -173,7 +173,7 @@ var checkWinner = function(a){
         player2counter1++;
         console.log("Added a point to counter 1");
       } else {
-        console.log("No counter added for counter 1");
+        console.log("No point added for counter 1");
       }
     }
 
@@ -182,7 +182,7 @@ var checkWinner = function(a){
         player2counter2++;
         console.log("Added a point to counter 2");
       } else {
-        console.log("No counter added for counter 2");
+        console.log("No point added for counter 2");
       }
     }
     for (var i = 0; i < player2Clicked.length; i++) {
@@ -191,7 +191,7 @@ var checkWinner = function(a){
         console.log("Added a point to counter 3");
 
       } else {
-        console.log("No counter added for counter 3");
+        console.log("No point added for counter 3");
       }
       console.log("Player 2 counter 1: " + player2counter1);
       console.log("Player 2 counter 2: " + player2counter2);
